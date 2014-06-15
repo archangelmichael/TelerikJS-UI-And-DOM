@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> Tags Visualization </title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            width:1200px;
+        }
+        textarea {
+            width: 500px;
+            height: 250px;
+        }
+        label, input {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <label for="input" > Enter sequence of tag names to be vizualized </label>
+    <textarea id="input" placeholder="example">cms, javascript, js, ASP.NET MVC, .net, .net, css, wordpress, xaml, js, http, , js, ASP.NET, .net, net, css, word-press, xaml, js, http, cms, javascript, js, ASP.NET MVC, .net, .net, css, wordpress, xaml, js, http, cms, javascript, js, ASP.NET MVC .net, .net, css, wordpress, xaml, js, http, cms, javascript, js, ASP.NET, .net, net, css, word-press, xaml, js, http</textarea>
+    <input type="button" id="vizualize" value="vizualize input data"/>
+    <input type="button" id="test" value="vizualize with test data" />
+    <div id="output"></div>
+    <script src="scripts/drawTags.js"></script>
+</body>
+</html>

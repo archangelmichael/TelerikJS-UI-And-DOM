@@ -1,0 +1,5 @@
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.SVG\03.NodePictureUsingDOM API\bin\03.NodePictureUsingDOM API.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.SVG\03.NodePictureUsingDOM API\bin\03.NodePictureUsingDOM API.pdb
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.SVG\03.NodePictureUsingDOM API\obj\Debug\03.NodePictureUsingDOM API.csprojResolveAssemblyReference.cache
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.SVG\03.NodePictureUsingDOM API\obj\Debug\03.NodePictureUsingDOM API.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.SVG\03.NodePictureUsingDOM API\obj\Debug\03.NodePictureUsingDOM API.pdb

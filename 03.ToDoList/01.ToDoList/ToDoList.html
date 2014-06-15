@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Create a TODO list</title>
+    <style>
+        body {
+            margin:0;
+            padding:0;
+            font-size:25px;
+        }
+        div#list-container {
+            margin:40px;
+        }
+        button {
+            border: 1px solid black;
+            border-radius: 5px;
+            background: #d761dd;
+        }
+        button:hover {
+            background-color:yellow;
+            font-weight:bold;
+        }
+        input {
+            background-color:skyblue;
+        }
+        #items-container > div {
+            background-color: lawngreen;
+        }
+        #items-container > div:hover button:hover {
+            background-color: red;
+        }
+    </style>
+    <link rel="styles/style.css" type="text/css" />
+    <script src="scripts/create-list.js"></script>
+</head>
+<body onload="createList()">
+    <div id="list-container"></div>
+</body>
+</html>

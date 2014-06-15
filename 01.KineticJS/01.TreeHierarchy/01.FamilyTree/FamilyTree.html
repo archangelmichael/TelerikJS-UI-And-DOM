@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Using Kinetic create a family tree-->
+    <title>Family Tree</title>
+    <style type="text/css" >
+        textarea {
+            width: 500px;
+            height: 200px;
+            display:block;
+        }
+    </style>
+    <script src="scripts/kinetic-v5.1.0.min.js"></script>
+    <script src="scripts/FTInputData.js"></script>
+    <script src="scripts/FTObjectsBuilder.js"></script>
+    <script src="scripts/FTIndexesBuilder.js"></script>
+    <script src="scripts/FTDrawer.js"></script>
+
+    <script>
+        function buildFamilyTree(option) {
+            var rawData;
+
+            switch (option) {
+                case 1:
+                    var valueOfObj = document.getElementById('objValue').value;
+
+                    valueOfObj = valueOfObj.replace(/'/g, '"');
+                    valueOfObj = valueOfObj.replace(/mother/g, '"mother"');
+                    valueOfObj = valueOfObj.replace(/father/g, '"father"');
+                    valueOfObj = valueOfObj.replace(/children/g, '"children"');
+
+                    var currObj = JSON.parse(valueOfObj);
+                    rawData = currObj;
+                    break;
+                case 2: rawData = getFTData(); break;
+            }
+
+            var familyTree = getFTObjects(rawData);
+
+            var familyTreeWithIndexes = getFTIndexes(familyTree.allGrandparents, familyTree.allHumans);
+
+            var divContainer = document.createElement('div');
+            divContainer.id = 'familytree-kinetic-canvas';
+            document.body.appendChild(divContainer);
+
+            var familyTreeRenderer = getFTDrawer('familytree-kinetic-canvas');
+
+            familyTreeRenderer.renderTree(familyTreeWithIndexes);
+
+            document.body.removeChild(document.body.firstElementChild);
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <label for="objValue">Input family tree data:</label>
+        <textarea id="objValue" placeholder="example: [{ mother: 'Simona Hristova', father: 'Kamen Hristov', children: ['Elena Hristova', 'Valeria Hristova']}]"></textarea>
+        <button onclick="buildFamilyTree(1)">Build tree from input</button>
+        <button onclick="buildFamilyTree(2)">Test</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.KineticJS\01.TreeHierarchy\01.FamilyTree\bin\01.FamilyTree.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.KineticJS\01.TreeHierarchy\01.FamilyTree\bin\01.FamilyTree.pdb
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.KineticJS\01.TreeHierarchy\01.FamilyTree\obj\Debug\01.FamilyTree.csprojResolveAssemblyReference.cache
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.KineticJS\01.TreeHierarchy\01.FamilyTree\obj\Debug\01.FamilyTree.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.KineticJS\01.TreeHierarchy\01.FamilyTree\obj\Debug\01.FamilyTree.pdb

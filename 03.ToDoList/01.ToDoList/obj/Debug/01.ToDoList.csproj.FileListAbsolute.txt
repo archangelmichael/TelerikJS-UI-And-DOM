@@ -1,0 +1,5 @@
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\03.ToDoList\01.ToDoList\bin\01.ToDoList.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\03.ToDoList\01.ToDoList\bin\01.ToDoList.pdb
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\03.ToDoList\01.ToDoList\obj\Debug\01.ToDoList.csprojResolveAssemblyReference.cache
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\03.ToDoList\01.ToDoList\obj\Debug\01.ToDoList.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\03.ToDoList\01.ToDoList\obj\Debug\01.ToDoList.pdb

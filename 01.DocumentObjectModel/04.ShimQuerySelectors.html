@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- * Write a script that shims querySelector and querySelectorAll in older browsers -->
+    <meta charset="UTF-8">
+    <title>Shim query selectors</title>
+    <script>
+        (function () {
+            (function querySelector(nodeIndentifier) {
+                if (!document.querySelector) {
+                    return document.getElementById(nodeIndentifier.substr(1));
+                }
+            }());
+
+            (function querySelectorAll(nodeIndentifier) {
+                if (!document.querySelectorAll) {
+                    if (nodeIndentifier[0] == "#") {
+                        return querySelector(nodeIndentifier);
+                    }
+                    else if (nodeIndentifier[0] == '.') {
+                        return document.getElementsByClassName(nodeIndentifier.substr(1));
+                    }
+                    else {
+                        return document.getElementsByTagName(nodeIndentifier);
+                    }
+                }
+            }());
+        }())
+    </script>
+</head>
+<body>
+
+</body>
+</html>

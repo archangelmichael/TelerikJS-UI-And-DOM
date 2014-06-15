@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Create a function that gets the value of <input type="text"> ands prints its value to the console -->
+	<meta charset="UTF-8">
+	<title>Get input text and print it</title>
+</head>
+<body>
+	<label for="enter-data"> Enter some text in the field and press 'Enter' </label>
+	<input id="enter-data" type="text" onchange="printInputTextOnConsole()" />
+	<script type="text/javascript">
+	function printInputText() {
+		var input = document.getElementById('enter-data'),
+			text = input.value,
+			newDiv = document.createElement("div"),
+  			newContent = document.createTextNode(text);
+			newDiv.appendChild(newContent);
+		document.body.insertBefore(newDiv, input);
+		console.log(text);
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Crеate a function that gets the value of <input type="color"> and sets the background of the body to this value -->
+	<meta charset="UTF-8">
+	<title>Change body background</title>
+</head>
+<body>
+	<label for="color-choice"> Choose background color </label>
+	<input id="color-choice" type="color" onchange="changeBodyBackgroundColor()" />
+	<script type="text/javascript">
+	function changeBodyBackgroundColor() {
+		var newColor = document.getElementById('color-choice').value;
+		document.body.style.backgroundColor = newColor;
+	}
+	</script>
+</body>
+</html>

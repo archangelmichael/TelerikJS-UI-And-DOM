@@ -1,0 +1,5 @@
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.RaphaelJSforSVG\02.CreateSpiral\bin\_02.CreateSpiral.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.RaphaelJSforSVG\02.CreateSpiral\bin\_02.CreateSpiral.pdb
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.RaphaelJSforSVG\02.CreateSpiral\obj\Debug\02.CreateSpiral.csprojResolveAssemblyReference.cache
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.RaphaelJSforSVG\02.CreateSpiral\obj\Debug\_02.CreateSpiral.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.RaphaelJSforSVG\02.CreateSpiral\obj\Debug\_02.CreateSpiral.pdb

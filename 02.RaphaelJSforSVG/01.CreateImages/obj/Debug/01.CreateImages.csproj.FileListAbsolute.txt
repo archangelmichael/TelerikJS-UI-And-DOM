@@ -1,0 +1,5 @@
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.RaphaelJSforSVG\01.CreateImages\bin\01.CreateImages.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.RaphaelJSforSVG\01.CreateImages\bin\01.CreateImages.pdb
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.RaphaelJSforSVG\01.CreateImages\obj\Debug\01.CreateImages.csprojResolveAssemblyReference.cache
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.RaphaelJSforSVG\01.CreateImages\obj\Debug\01.CreateImages.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.RaphaelJSforSVG\01.CreateImages\obj\Debug\01.CreateImages.pdb

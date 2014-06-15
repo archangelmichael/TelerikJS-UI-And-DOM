@@ -1,0 +1,5 @@
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\04.VisualizeTags\bin\04.VisualizeTags.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\04.VisualizeTags\bin\04.VisualizeTags.pdb
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\04.VisualizeTags\obj\Debug\04.VisualizeTags.csprojResolveAssemblyReference.cache
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\04.VisualizeTags\obj\Debug\04.VisualizeTags.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\04.VisualizeTags\obj\Debug\04.VisualizeTags.pdb

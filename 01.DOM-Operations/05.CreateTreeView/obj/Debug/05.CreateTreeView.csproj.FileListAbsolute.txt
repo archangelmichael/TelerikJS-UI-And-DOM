@@ -1,0 +1,5 @@
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\05.CreateTreeView\bin\05.CreateTreeView.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\05.CreateTreeView\bin\05.CreateTreeView.pdb
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\05.CreateTreeView\obj\Debug\05.CreateTreeView.csprojResolveAssemblyReference.cache
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\05.CreateTreeView\obj\Debug\05.CreateTreeView.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\05.CreateTreeView\obj\Debug\05.CreateTreeView.pdb

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Get divs in divs</title>
+</head>
+<body>
+    <!-- Write a script that selects all the div nodes that are directly inside other div elements
+    Create a function using querySelectorAll()
+    Create a function using getElementsByTagName() -->
+	<div>not an inner div</div>
+    <div>not an inner div</div>
+    <div>
+    	not an inner div
+        <div>
+        	inner div
+            <div>inner div</div>
+            <div>inner div</div>
+        </div>
+        <div>
+        	inner div
+            <div>inner div</div>
+        </div>
+    </div>
+    <div>not an inner div</div>
+    <script type="text/javascript">
+    function getDivsByQuerySelector() {
+    	return document.querySelectorAll('div div');
+    }
+
+    function getDivsByGetElementByTagName() {
+    	var divs = document.getElementsByTagName('div'),
+    		innerDivsList = [],
+    		length = divs.length,
+    		i;
+    	for (i = 0; i < length; i++) {
+            if (divs[i].parentElement instanceof HTMLDivElement) {
+                innerDivsList.push(divs[i]);
+            }
+    	}
+
+        return innerDivsList;
+    }
+
+    console.log(getDivsByQuerySelector());
+    console.log(getDivsByGetElementByTagName());
+    </script>
+</body>
+</html>

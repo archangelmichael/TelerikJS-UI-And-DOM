@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Text Area Colors Modification</title>
+    <style>
+        textarea {
+            width: 500px;
+            height: 300px;
+            border: 1px solid black;
+            display: block;
+        }
+
+        input {
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <textarea id="textarea-output"> This is the default text in the text area. </textarea>
+    <label for="font-color"> Select textarea font color </label>
+    <input id="font-color" type="color" />
+    <label for="background-color"> Select textarea background color </label>
+    <input id="background-color" type="color" />
+    <script src="scripts/change-color.js"></script>
+</body>
+</html>

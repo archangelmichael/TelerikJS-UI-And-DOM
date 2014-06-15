@@ -1,0 +1,5 @@
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\02.RotateDivElements\bin\02.RotateDivElements.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\02.RotateDivElements\bin\02.RotateDivElements.pdb
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\02.RotateDivElements\obj\Debug\02.RotateDivElements.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\02.RotateDivElements\obj\Debug\02.RotateDivElements.pdb
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\01.DOM-Operations\02.RotateDivElements\obj\Debug\02.RotateDivElements.csprojResolveAssemblyReference.cache

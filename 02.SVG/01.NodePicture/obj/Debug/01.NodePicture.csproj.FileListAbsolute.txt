@@ -1,0 +1,10 @@
+C:\Users\raddy\Documents\Visual Studio 2012\Projects\JS DOM & UI\02.SVG\01.NodePicture\bin\01.NodePicture.dll
+C:\Users\raddy\Documents\Visual Studio 2012\Projects\JS DOM & UI\02.SVG\01.NodePicture\bin\01.NodePicture.pdb
+C:\Users\raddy\Documents\Visual Studio 2012\Projects\JS DOM & UI\02.SVG\01.NodePicture\obj\Debug\01.NodePicture.csprojResolveAssemblyReference.cache
+C:\Users\raddy\Documents\Visual Studio 2012\Projects\JS DOM & UI\02.SVG\01.NodePicture\obj\Debug\01.NodePicture.dll
+C:\Users\raddy\Documents\Visual Studio 2012\Projects\JS DOM & UI\02.SVG\01.NodePicture\obj\Debug\01.NodePicture.pdb
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.SVG\01.NodePicture\bin\01.NodePicture.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.SVG\01.NodePicture\bin\01.NodePicture.pdb
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.SVG\01.NodePicture\obj\Debug\01.NodePicture.csprojResolveAssemblyReference.cache
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.SVG\01.NodePicture\obj\Debug\01.NodePicture.dll
+C:\Users\ARCHANGEL\Documents\Visual Studio 2012\Projects\06.2014.JS UI&DOM\02.SVG\01.NodePicture\obj\Debug\01.NodePicture.pdb
