@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title> Create Table With Template </title>
+    <style>
+        table {
+            margin: 10px;
+            padding: 5px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 18px;
+        }
+        th {
+            background: darkgrey;
+            color: white;
+        }
+        td,th {
+            border: 1px solid black;
+        }
+        td {
+            font-weight: 700;
+        }
+        tr:nth-of-type(2n) {
+            background: lightgrey;
+        }
+    </style>
+    <script src="libs/handlebars-v1.3.0.js" type="text/javascript" ></script>
+</head>
+<body>
+    <h3> Create the following using Handlebars.js </h3>
+    <div id="table-container" ></div>
+    <script id="template-data" type="text/x-handlebars-template" >
+        <table id="lectures-information">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Title</th>
+                    <th>Date1 #1</th>
+                    <th>Date #2</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each lectures}}
+                <tr>
+                    <td>{{@index}}</td>
+                    <td>{{title}}</td>
+                    <td>{{firstDate}}</td>
+                    <td>{{secondDate}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </script>
+    <script src="scripts/use-template.js" type="text/javascript" ></script>
+</body>
+</html>

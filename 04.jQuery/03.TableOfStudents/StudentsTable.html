@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title> Students Table</title>
+    <style>
+        body, div {
+            text-align: center;
+        }
+        table {
+            border: 1px outset blue;
+            border-spacing: 2px;
+            border-collapse: separate;
+            background-color: greenyellow;
+            position: relative;
+            left: 400px;
+            top: 40px;
+        }
+        th {
+            border: 1px inset grey;
+            padding: 5px;
+            background-color: white;
+            font-size: 16px;
+            font-weight: bold;;
+        }
+        td {
+            border-width: 1px;
+            padding: 1px;
+            border-style: inset;
+            border-color: gray;
+            background-color: white;
+        }
+    </style>
+    <script src="scripts/students.js" type="text/javascript" ></script>
+</head>
+<body>
+<div>By given an array of students, generate a table that represents these students. Each student has first name,last name and grade.
+    Use jQuery
+</div>
+    <div id="container" > This is where the table should be. It works with any number of properties and any number of students </div>
+    <script src="libs/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="scripts/generate-students.js" type="text/javascript" ></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title> Grid View </title>
+    <style>
+        body {
+            font-size: 14px;
+            text-align: center;
+            background: yellow;
+        }
+        .grid {
+            border: 1px solid black;
+            display: inline-block;
+            padding: 10px;
+            background-color: lawngreen;
+            margin: 5px;
+            width: 90%;
+        }
+        button {
+            border-radius: 5px;
+            padding: 5px 5px;
+            margin-right: 10px;
+            background: deepskyblue;
+        }
+        button:hover {
+            background: red;
+        }
+        table {
+            width: 100%;
+            position: relative;
+            left: 5px;
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        th {
+            background: deepskyblue;
+            font-weight: bold;
+            border: 1px solid black;
+        }
+        input {
+            background: mediumvioletred;
+        }
+    </style>
+    <script src="libs/jquery-2.1.1.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <h3>*Implement a GridView control. Rows can be added dynamically. A header row can be added dynamically. Each GridView can have at most one header row. Each row can have  a nested GridView. Each GridView can have at most one nested GridView.
+    </h3>
+    <div id="container" ></div>
+    <script src="scripts/generateGrid.js" type="text/javascript"></script>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title> List View </title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        tr, th, td {
+            border: 1px solid black;
+            padding: 5px;
+            margin:10px;;
+        }
+        ul {
+            list-style: upper-roman;
+        }
+    </style>
+    <script src="libs/handlebars-v1.3.0.js" type="text/javascript" ></script>
+    <script src="libs/jquery-2.1.1.min.js"></script>
+    <script src="scripts/inputs.js"></script>
+    <script src="scripts/inputs.js"></script>
+    <script src="scripts/generate-list-view.js"></script>
+</head>
+<body>
+    <h3>*Create a jQuery plugin for ListView <br>
+        Apply a template for each item of a collection <br>
+        Using the data-template attribute set the ID of the <br>
+        template to use for the items <br>
+        Must work with different collections and templates <br>
+        * More examples on the next slides <br>
+        *(cont.)Create a jQuery plugin for ListView
+    </h3>
+    <h3> Books </h3>
+    <ul id="books-list" data-template="book-item-template">
+        <script id="book-item-template" type="x-handlebars-template">
+            <li class="book-item">
+                <a href="/books/{{id}}">{{title}}</a>
+            </li>
+        </script>
+    </ul>
+
+    <h3> Students </h3>
+    <table>
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Mark</th>
+        </tr>
+        </thead>
+        <tbody id="students-table" data-template="students-row-template">
+        </tbody>
+    </table>
+
+    <script id="students-row-template" type="invalid">
+        <tr class="student-row">
+          <td>{{number}}</td>
+          <td>{{name}}</td>
+          <td>{{mark}}</td>
+        </tr>
+    </script>
+
+<script>
+    window.onload = function () {
+        $('#books-list').listView(books);
+        $('#students-table').listView(students);
+    };
+</script>
+</body>
+</html>

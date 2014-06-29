@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title> Dropdown PlugIn </title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        div, ul {
+            text-align: center;
+        }
+        li {
+            position: relative;
+            left: 40%;
+            width: 100px;
+            display: block;
+            font: 18px;
+            font-weight: bold;
+            background: grey;
+        }
+        h3 {
+            position: relative;
+            left: 20%;
+            text-align: left;
+            background: darkgrey;
+            width: 700px;
+        }
+    </style>
+</head>
+<body>
+<h3> Create a jQuery plugin for creating dropdown list by given the following: <br>
+    &lt;select id="dropdown"&gt; <br>
+    &lt;option value="1"&gt;One&lt;/option&gt; <br>
+    &lt;option value="2"&gt;Two&lt;/option&gt; <br>
+    &lt;/select&gt; <br>
+    Produces the following HTML: <br>
+    &lt;select id="dropdown" style="display: none"&gt;…&lt;/select&gt; <br>
+    &lt;div class="dropdown-list-container"&gt; <br>
+    &lt;ul class="dropdown-list-options"&gt; <br>
+    &lt;li class="dropdown-list-option" data-value="0">One&lt;/li&gt; <br>
+        … <br>
+    &lt;/ul&gt;<br>
+    &lt;/div&gt;<br>
+    And make it work as SELECT node. Selecting an one of the generated LI nodes, selects the corresponding OPTION node. <br>
+    So $('#dropdown:selected') works<br>
+</h3>
+    <select id="dropdown">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+    </select>
+    <script src="libs/jquery-2.1.1.min.js" type="text/javascript" ></script>
+    <script src="scripts/generate-dropdown.js" type="text/javascript" ></script>
+</body>
+</html>

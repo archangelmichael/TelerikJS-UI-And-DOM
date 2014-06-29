@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Add Remove Elements </title>
+	<style>
+	#container {
+		margin: 20px;
+		text-align: center;
+	}
+	input {
+		width : 20%;
+		height: 50px;
+		display: block;
+	}
+	select {
+		width: 100px;
+	}
+	label {
+		display: block;
+	}
+	#default {
+		font-size: 25px;
+	}
+	</style>
+</head>
+<body>
+    <h3>Using jQuery implement functionality to insert a DOM element before or after another element.</h3>
+	<label for="choice">choose where to process element</label>
+	<select id="choice" name="where">
+		<option value="after"> after </option>
+		<option value="before" selected> before </option>
+	</select>
+	<label for="inputTag"> Enter tag to add/remove </label>
+	<input id="inputTag" type="text" placeholder="div" />
+	<label for="inputHtml"> Enter inner HTML </label>
+	<input id="inputHtml" type="text" placeholder="Default Div Element" />
+	<button id="add" type="button"> Add Element</button>
+	<button id="remove" type="button"> Remove element</button>
+	<div id="container"> 
+		<div id="default"> here is a default div element </div>
+	</div>
+	<script src="libs/jquery-2.1.1.min.js" type="text/javascript"></script>
+	<script src="scripts/add-remove-element.js" type="text/javascript"></script>
+</body>
+</html>
